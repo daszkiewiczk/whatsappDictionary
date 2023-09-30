@@ -1,0 +1,7 @@
+fastapi>=0.103.2,<0.104
+uvicorn>=0.23.2,<0.24
+twilio>=8.9.0,<8.10
+pymongo>=4.5.0,<4.6
+pyngrok>=7.0.0,<7.1
+requests>=2.31.0,<2.32
+python-dotenv>=1.0.0,<1.1
