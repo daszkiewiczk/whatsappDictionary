@@ -20,7 +20,7 @@ def send_message(to_number, text):
     try:
         message = client.messages.create(
             from_=f'whatsapp:{twilio_number}',
-            body='Your appointment is coming up on July 21 at 3PM',
+            body=text,
             to=f'whatsapp:{to_number}',
         )
         logger.info(f'Message sent to {to_number}: {message.body}')
